@@ -20,7 +20,7 @@
                 <div class="col justify-content-center text-center">
                     <button id="btn_login" class="btn btn-success mb-2" type="submit"><i class="fa-solid fa-right-to-bracket"></i> Iniciar</button>
                     <br>
-                    <a href="registro" class="btn btn-link-danger"><i class="fa-solid fa-chalkboard-user"></i> Registro</a>
+                    <a href="{{route('registro')}}" class="btn btn-link-danger"><i class="fa-solid fa-chalkboard-user"></i> Registro</a>
                 </div>
             </div>
         </div>

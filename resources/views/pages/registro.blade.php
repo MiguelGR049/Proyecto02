@@ -26,7 +26,7 @@
             <div class="col justify-content-center text-center">
                 <button id="btn_registro" class="btn btn-success mb-2"><i class="fa-solid fa-chalkboard-user"></i> Registrar</button>
                 <br>
-                <a href="login" class="btn btn-link-danger"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
+                <a href="{{route('login')}}" class="btn btn-link-danger"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
             </div>
         </div>
     </div>

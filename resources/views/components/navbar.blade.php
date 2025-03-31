@@ -1,6 +1,6 @@
 <nav class="navbar navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#" id="navbar_brand">Animes</a>
+        <a class="navbar-brand" href="{{route('inicio')}}" id="navbar_brand">Animes</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
             aria-label="Toggle navigation">
@@ -15,11 +15,10 @@
             <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                        <a id="home" class="nav-link active" aria-current="page" href="/inicio"><i class="fa-solid fa-house"></i> Home</a>
+                        <a id="home" class="nav-link active" aria-current="page" href="{{route('inicio')}}"><i class="fa-solid fa-house"></i> Home</a>
                     </li>
                     <li id="item_genero" class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Genero
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark" id="genero">
@@ -40,7 +39,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/ajuste">Ajustes</a>
+                        <a class="nav-link" href="{{route('ajuste')}}">Ajustes</a>
                     </li>
                 </ul>
                 <form class="d-flex mt-2 mb-2" role="search">
